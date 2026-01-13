@@ -19,8 +19,8 @@ Nom: [Posa el teu nom aquí]
    - Dins de cada carpeta de tasca, heu d'incloure un arxiu `README.md` amb la descripció detallada de l'activitat realitzada.
 
 3. **Procediment de treball:**
-   - A mesura que completeu cada tasca, actualitzeu el vostre repositori local amb els canvis.
-   - Cada dia, abans de finalitzar la jornada, pugeu els canvis al  repositori remot a GitHub.
+   - A mesura que completeu cada tasca, actualitzeu el vostre repositori local amb els canvis
+   - Cada dia, abans de finalitzar la jornada, pugeu els canvis al  repositori remot a GitHub
 
 ## Estructura del projecte
 
