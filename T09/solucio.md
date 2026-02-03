@@ -1,4 +1,4 @@
-# Anàlisi de Vulnerabilitats amb OpenVAS – Part 1 (Captures 1-20)
+# Anàlisi de Vulnerabilitats amb OpenVAS
 
 Aquesta guia explica el procés de configuració i inici de l'entorn per realitzar una anàlisi de vulnerabilitats utilitzant **OpenVAS** com a eina d'escaneig i **Metasploitable Linux** com a sistema objectiu amb vulnerabilitats conegudes.
 
