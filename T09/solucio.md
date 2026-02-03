@@ -425,7 +425,10 @@ Es mostren vulnerabilitats amb els seus ports específics:
 - **MySQL Default Credentials** al port 3306/tcp
 - **PHP vulnerabilities** al port 80/tcp
 
-### 12.6 Exemple detallat d'una vulnerabilitat
+
+## Anàlisi Detallada de Vulnerabilitats Detectades
+
+## 1. Possible Backdoor: Ingreslock
 
 ![Detall de la vulnerabilitat Ingreslock](/T09/img_t09/captura36.png)
 
@@ -436,7 +439,60 @@ Es mostra la descripció detallada de la vulnerabilitat **"Possible Backdoor: In
 - **Solució**: Es recomana una neteja completa del sistema infectat
 - **Mètode de detecció**: OID 1.3.6.1.4.1.25623.1.0.103549
 
-Aquesta vulnerabilitat és particularment perillosa ja que permet accés root complet al sistema.
+Aquesta vulnerabilitat és particularment perillosa ja que permet accés root complet al sistema. Un backdoor és una porta d'accés oculta que permet l'accés no autoritzat al sistema, sovint amb els màxims privilegis, sense passar pels mecanismes normals d'autenticació.
+
+---
+
+## 2. PostgreSQL Default Credentials (PostgreSQL Protocol)
+
+![Vulnerabilitat PostgreSQL](/T09/img_t09/captura37.png)
+
+Es mostra la descripció detallada de la vulnerabilitat **"PostgreSQL Default Credentials (PostgreSQL Protocol)"**:
+- **Resum**: És possible iniciar sessió al PostgreSQL remot com a usuari postgres utilitzant credencials febles
+- **Resultat de detecció**: És possible autenticar-se com a usuari postgres amb la contrasenya "postgres"
+- **Impacte**: Accés complet a la base de dades amb possibles privilegis d'administrador
+- **Solució**: Canviar la contrasenya immediatament
+- **Mètode de detecció**: OID 1.3.6.1.4.1.25623.1.0.103552
+- **Versió del test**: 2024-07-19T15:39:06Z
+
+Aquesta vulnerabilitat és greu ja que permet accés no autoritzat a la base de dades amb privilegis elevats. El fet que les credencials per defecte siguin tan predictibles facilita enormement els atacs de força bruta i l'accés maliciós a dades sensibles.
+
+---
+
+## 3. VNC Brute Force Login
+
+![Vulnerabilitat VNC](/T09/img_t09/captura38.png)
+
+Es mostra la descripció detallada de la vulnerabilitat **"VNC Brute Force Login"**:
+- **Resum**: Intent d'iniciar sessió amb contrasenyes conegudes a través del protocol VNC
+- **Resultat de detecció**: És possible connectar-se al servidor VNC amb la contrasenya "password"
+- **Insight**: El script prova autenticacions VNC amb contrasenyes comunes i informa si no es requereix autenticació
+- **Impacte**: Accés remot complet a la interfície gràfica del sistema
+- **Solució**: Canviar la contrasenya per una difícil d'endevinar o habilitar protecció per contrasenya
+- **Mètode de detecció**: OID 1.3.6.1.4.1.25623.1.0.106056
+- **Versió del test**: 2021-07-23T07:56:26Z
+
+Aquesta vulnerabilitat és significativa perquè el VNC permet control remot complet de la màquina. Les contrasenyes VNC tenen un límit de 8 caràcters, facilitant els atacs de força bruta. Alguns servidors VNC bloquegen adreces IP després de 5 intents fallits, però molts no implementen aquesta protecció.
+
+---
+
+## 4. Rexec Service Running
+
+![Vulnerabilitat Rexec](/T09/img_t09/captura39.png)
+
+Es mostra la descripció detallada de la vulnerabilitat **"The rexec service is running"**:
+- **Resum**: El host remot executa un servei rexec (remote execution)
+- **Resultat de detecció**: S'ha detectat el servei rexec al sistema objectiu
+- **Insight**: rexec permet executar comandes shell remotament, similar a rsh, però autenticant amb nom d'usuari i contrasenya sense xifrar
+- **Impacte**: Execució remota de comandes amb credencials exposades
+- **Solució**: Deshabilitar el servei rexec i utilitzar alternatives com SSH
+- **Mètode de detecció**: OID 1.3.6.1.4.1.25623.1.0.100111
+- **Versió del test**: 2023-09-12T05:05:19Z
+- **Referència CVE**: CVE-1999-0618
+
+Aquesta vulnerabilitat és perillosa perquè rexec transmet credencials d'autenticació en text clar per la xarxa. Qualsevol atacant que pugui capturar el trànsit de xarxa pot obtenir les credencials i executar comandes arbitràries al sistema remot. SSH ofereix una alternativa molt més segura amb xifrat de tot el trànsit.
+
+
 
 ---
 
