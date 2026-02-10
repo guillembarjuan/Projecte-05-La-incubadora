@@ -9,7 +9,8 @@ A continuació tens la solució completa de la tasca **Green IT**, organitzada p
 Solució, definicions i anàlisi completats en el següent document:
 
 👉 **Activitat 1 – Introducció i anàlisi actual**  
-https://docs.google.com/document/d/1sQg3xfkfGrpeW-y8aJCGqKsFGR9bAMMJ/edit?usp=sharing&ouid=102545423568298856003&rtpof=true&sd=true
+
+- 🔗 [Enllaç activitat 1](https://docs.google.com/document/d/1sQg3xfkfGrpeW-y8aJCGqKsFGR9bAMMJ/edit?usp=sharing&ouid=102545423568298856003&rtpof=true&sd=true)
 
 ---
 
@@ -18,7 +19,8 @@ https://docs.google.com/document/d/1sQg3xfkfGrpeW-y8aJCGqKsFGR9bAMMJ/edit?usp=sh
 Recull d’exemples reals de pràctiques de Green IT aplicades i reflexió sobre el nostre catàleg de serveis:
 
 👉 **Activitat 2 – Exemples reals i bones pràctiques**  
-https://docs.google.com/document/d/1u93_-_qIihLVqjLJjqj5hpfX0xXXt3IL/edit?usp=sharing&ouid=102545423568298856003&rtpof=true&sd=true
+
+- 🔗 [Enllaç activitat 2](https://docs.google.com/document/d/1u93_-_qIihLVqjLJjqj5hpfX0xXXt3IL/edit?usp=sharing&ouid=102545423568298856003&rtpof=true&sd=true)
 
 ---
 
@@ -27,7 +29,8 @@ https://docs.google.com/document/d/1u93_-_qIihLVqjLJjqj5hpfX0xXXt3IL/edit?usp=sh
 Disseny de la política de Green IT per a la nostra empresa i definició d’indicadors mesurables:
 
 👉 **Activitat 3 – Política i indicadors de Green IT**  
-https://docs.google.com/document/d/10SwR8r3ypt20wzIqsPlB6kvliwIqX-Zy/edit?usp=sharing&ouid=102545423568298856003&rtpof=true&sd=true
+
+- 🔗 [Enllaç activitat 3](https://docs.google.com/document/d/10SwR8r3ypt20wzIqsPlB6kvliwIqX-Zy/edit?usp=sharing&ouid=102545423568298856003&rtpof=true&sd=true)
 
 ---
 
