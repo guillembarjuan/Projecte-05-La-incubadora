@@ -84,8 +84,6 @@ El suport compleix els requisits:
 - No es llegeix, només s’utilitza com a guia visual.
 - Mostra ordre, criteri i coherència amb la identitat de l’empresa.
 
-🔗 **Enllaç al suport visual:** (pendent d’inserir per part de l’alumne)
-
 ---
 
 ## 🎤 Assaig i evidència
@@ -101,7 +99,11 @@ Per demostrar que l’assaig es va realitzar, es va generar una **evidència** (
 - [ ] **Àudio de la presentació assajada**
 - [ ] **Screencast (gravació de pantalla amb veu)**
 
-🔗 **Enllaç a l’evidència d’assaig:** (pendent d’inserir per part de l’alumne)
+🔗 **Enllaç a l’evidència d’assaig:**
+
+> [Evidència d’assaig](https://drive.google.com/file/d/1mKX9WlW4fXrzPnCFslEncyl4UQHQaoNu/view?usp=sharing)
+
+*(L'audio té permisos de visualització per al professorat i el tribunal)*
 
 ---
 
@@ -111,6 +113,12 @@ Per demostrar que l’assaig es va realitzar, es va generar una **evidència** (
 - **Suport visual** (enllaç a Google Slides, Canva, etc.).
 - **Evidència d’assaig** (vídeo, àudio o screencast).
 - **Carpeta `Producte03`** amb aquest README i, si escau, captures de pantalla del suport o del procés d’assaig.
+
+🔗 **Enllaç a l'ScreenCast:**
+
+> [Link al video](https://drive.google.com/file/d/1wVZjlqtkB3UzhfzowdRW5yjcHhVVQQnO/view?usp=sharing)
+
+*(El video té permisos de visualització per al professorat i el tribunal)*
 
 ---
 
