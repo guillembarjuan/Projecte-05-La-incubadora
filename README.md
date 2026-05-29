@@ -142,8 +142,6 @@ Tota la documentació tècnica està redactada en **Markdown**, amb imatges a su
 
 ## 🧰 Competències treballades
 
-Extretes del document de projecte (mòduls 0224, 0226, 0227, 0228, 1708, 1710, 1713):
-
 - **Emprenedoria i innovació:** identificar problemes reals, validar solucions, dissenyar models de negoci (RA4 de 1710).
 - **Infraestructura i xarxes:** dissenyar i configurar xarxes locals (VLAN, DHCP, NAT), servidors Windows i Linux, serveis de transferència de fitxers.
 - **Seguretat:** protegir sistemes contra malware, analitzar vulnerabilitats, aplicar bones pràctiques de hardening.
