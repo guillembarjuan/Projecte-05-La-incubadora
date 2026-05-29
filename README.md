@@ -41,12 +41,9 @@ A més, hem integrat el **Green IT** com a eix transversal, oferint estudis de s
 
 ## 🧭 Metodologia de treball
 
-- **Kanban amb Microsoft Planner:** seguiment setmanal del backlog de tasques (T00 a T10).
 - **GitHub Classroom:** repositoris privats per a cada alumne, treball en local amb git i sincronització remota.
 - **Design Thinking:** aplicat a la fase de creativitat per detectar problemes reals i generar solucions.
 - **IA com a accelerador:** ús de Gemini per proposar continguts, contrastar idees i crear materials, però sempre amb criteri humà.
-
-🔗 **Enllaç al tauler Kanban del projecte (Planner):** (pendent d’inserir per part de l’alumne)
 
 ---
 
